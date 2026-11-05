@@ -64,6 +64,7 @@ STEP 9: Reset BIOS settings to factory default
 **[ NOTES ]**
 
 When booting the patched BIOS you might have to:
+- remove the CMOS battery, some models might need this to clear the MEC1633L cache which locks the bios again (5 beeps)
 - Hold the anti-tamper switch down the whole time (use tape)
 - Remove the hard disk or replace it with a locked one
 
